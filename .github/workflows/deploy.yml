@@ -10,7 +10,7 @@ jobs:
         runs-on: ubuntu-latest
 
         steps:
-        - name: Checkout Repositroy
+        - name: Checkout Repository
           uses: actions/checkout@v2
 
         - name: Set up AWS CLI
@@ -22,7 +22,7 @@ jobs:
 
         - name: Sync files to S3
           run: |
-            aws s3 sync ./public/ s3://my-aws-bucket00112233/ --delete
+            aws s3 sync . s3://my-aws-bucket00112233/ --delete  -exclude ".git/*" --exclude ".github/*"
 
         - name: Invalidate CloudFront Cache
           run: |
