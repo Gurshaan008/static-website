@@ -18,11 +18,11 @@ This project demonstrates how to host a static website to AWS S3 and serve it gl
 -       |___ deploy.yml
 
 # SCREENSHOTS INCLUDED
-- 1) S3 Bucket Settings
-  2) CloudFront Settings
-  3) Github Action workflow
-  4) Successful GitHub Actions Run
-  5) Live Webiste
+1) S3 Bucket Settings
+2) CloudFront Settings
+3) Github Action workflow
+4) Successful GitHub Actions Run
+5) Live Webiste
 
 # HOW IT WORKS
 1) You push the code to the 'main' branch
