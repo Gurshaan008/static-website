@@ -17,12 +17,21 @@ This project demonstrates how to host a static website to AWS S3 and serve it gl
 -   |___ workflows/
 -       |___ deploy.yml
 
-GitHub Repo (Push) 
-   ↓
-GitHub Actions 
-   ↓
-AWS CLI Sync → S3 Bucket 
-   ↓
-CloudFront (Cache Invalidation)
-   ↓
-User Gets Updated Website Globally
+# SCREENSHOTS INCLUDED
+- 1) S3 Bucket Settings
+  2) CloudFront Settings
+  3) Github Action workflow
+  4) Successful GitHub Actions Run
+  5) Live Webiste
+
+# HOW IT WORKS
+1) You push the code to the 'main' branch
+2) GitHub Actions triggers a workflow defined in '/github/workflows/deploy.yml'
+3) It uses AWS CLI to syn the local project file to the S3 bucket
+4) After uploading, it invalidates CloudFront cache to ensure new changes are visible immidiately
+
+# CONCLUSION
+- Hosting static website on AWS S3
+- Configuring CloudFront with custom origins
+- Automating deployments using GitHub Actions
+- Cache invalidation for content delivery networks
