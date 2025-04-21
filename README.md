@@ -9,7 +9,6 @@ This project demonstrates how to host a static website to AWS S3 and serve it gl
 
 # PROJECT STRUCTURE
 
-```
 static-website/
 ├── index.html
 ├── style.css
@@ -21,15 +20,14 @@ static-website/
 │   ├── GitHub Actions/
 │   │   ├── Deploy.png
 │   │   └── Deployment-Successful.png
-│   └── S3 settings/
-│       ├── Allow-Public-Access.png
-│       ├── Static-Website-Hosting.png
-│       └── Live-Website.png
+│   ├── S3 settings/
+│   │   ├── Allow-Public-Access.png
+│   │   └── Static-Website-Hosting.png
+│   └── Live-Website.png
 └── .github/
     └── workflows/
         └── deploy.yml
-```
-
+        
 # SCREENSHOTS INCLUDED
 1) S3 Bucket Settings
 2) CloudFront Settings
