@@ -8,7 +8,7 @@ This project demonstrates how to host a static website to AWS S3 and serve it gl
 - Github Actions (CI/CD Automation)
 
 # PROJECT STRUCTURE
-
+```
 static-website/
 ├── index.html
 ├── style.css
@@ -27,6 +27,7 @@ static-website/
 └── .github/
     └── workflows/
         └── deploy.yml
+```
         
 # SCREENSHOTS INCLUDED
 1) S3 Bucket Settings
