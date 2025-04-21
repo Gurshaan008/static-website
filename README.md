@@ -30,11 +30,12 @@ static-website/
 ```
         
 # SCREENSHOTS INCLUDED
+All images and screenshots related to this project are in the `assets/` folder. They are organized into subfolders based on functionality.
 1) S3 Bucket Settings
 2) CloudFront Settings
 3) Github Action workflow
 4) Successful GitHub Actions Run
-5) Live Webiste
+5) Live Webiste (Final Output)
 
 # HOW IT WORKS
 1) You push the code to the 'main' branch
