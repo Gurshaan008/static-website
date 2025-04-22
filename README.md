@@ -1,5 +1,5 @@
 # OVERVIEW
-This project demonstrates how to host a static website to AWS S3 and serve it globally with the help of cloudfront. It also integrates CI/CD automation with the help of Github Actions to auto deploy changes when the code is pushed to the repository.
+In this project I'm hosting a static website to AWS S3 and serve it globally with the help of cloudfront. I've also integrated CI/CD automation using Github Actions to auto deploy changes when the code is pushed to the repository.
 
 # TECHNOLOGIES USED
 - HTML/CSS (Static site)
